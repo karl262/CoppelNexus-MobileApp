@@ -2,40 +2,39 @@
   "expo": {
     "name": "Coppel_Nexus",
     "slug": "Coppel_Nexus",
-    "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FFDC32"
-    }, 
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logos/LOGO_COPPEL_AMARILLO-10.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFDC35"
+    },
+    "icon": "./assets/images/logos/LOGO_COPPEL_AMARILLO-10.png",
     "ios": {
+      "icon": "./assets/images/logos/LOGO_COPPEL_AZUL-09.png",
       "supportsTablet": true
     },
     "android": {
+      "icon": "./assets/images/logos/LOGO_COPPEL_AZUL-09.png",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/logos/LOGO_COPPEL_AZUL-09.png",
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
+      "favicon": "./assets/images/logos/LOGO_COPPEL_AZUL-09.png",
       "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "output": "static"
     },
     "plugins": [
-      "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/logos/LOGO_COPPEL_AMARILLO-10.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#FFDC35"
         }
       ]
     ],

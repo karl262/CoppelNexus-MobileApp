@@ -2,8 +2,7 @@ import { useEffect } from 'react';
 import { View, Image } from 'react-native';
 import { SplashScreen, useRouter } from 'expo-router';
 import { palette } from '@/theme/colors';
-
-import logo from '~assets/images/oficialCoppelNexus.png';
+import logoCoppel from '~assets/images/logos/LOGO_COPPEL_AMARILLO-10.png';
 
 export default function Splash() {
   const router = useRouter();
@@ -25,7 +24,7 @@ export default function Splash() {
       style={{ backgroundColor: palette.accent }}
     >
 
-      <Image source={logo} className="w-48 h-48" resizeMode="contain" />
+      <Image source={logoCoppel} className="w-48 h-48" resizeMode="contain" />
     </View>
   );
 }
