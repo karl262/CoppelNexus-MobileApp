@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Pressable } from 'react-native';
-import PerformanceTab from './PerformanceTab';
-import ReferralTab from './ReferralTab';
+import PerformanceTab from '@/components/PerformanceTab';
+import ReferralTab from '@/components/ReferralTab';
 
 export default function ProgressTabs() {
   const [activeTab, setActiveTab] = useState<'performance' | 'referrals'>('performance');
